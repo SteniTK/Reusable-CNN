@@ -47,5 +47,4 @@ for f in os.listdir(INPUTDIR):
     bb = cv2.selectROI("Mark",image)
     write_file(INPUTDIR+f,bb)
     light_aug(image,f,10,bb)
-    break
 file.close()
