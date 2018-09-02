@@ -2,7 +2,7 @@
 Reusable code for CNN training and testing
 
 File descriptions :
-  # 1. Data Augmenter - light_aug.py
+  ## 1. Image Augmenter - light_aug.py 
   Reads Images from Input directory
   Mark BB in the image
   Generate 'num' images with varying HSV values and store in Output Directory
